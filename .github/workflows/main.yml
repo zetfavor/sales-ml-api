@@ -78,7 +78,7 @@ jobs:
       # 6. Tell the "Cloud Valet" (Cloud Run) to deploy the new truck
       - name: Deploy to Cloud Run
         run: >
-          gcloud run deploy sales-api-service
+          gcloud run deploy sales-api-service --quiet
           --image us-central1-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/sales-api/sales-api-image:latest
           --region us-central1
           --port 80
