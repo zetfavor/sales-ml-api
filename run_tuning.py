@@ -2,7 +2,6 @@ import pandas as pd
 import optuna
 import mlflow
 import copy # We'll need this to copy our config dict
-from pathlib import Path
 
 # Import our custom source-code modules
 from src.data_loader import load_config, load_raw

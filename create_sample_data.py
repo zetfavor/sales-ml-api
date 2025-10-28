@@ -26,7 +26,7 @@ save_path = Path(__file__).parent / "data" / "raw" / "sample_sales.csv"
 # Save to the data/raw folder
 df.to_csv(save_path, index=False)
 
-print(f"Successfully created imbalanced dataset at:")
+print("Successfully created imbalanced dataset at:")
 print(save_path)
 print("\nData preview:")
 print(df.head())

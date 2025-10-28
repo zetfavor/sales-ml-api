@@ -1,4 +1,3 @@
-import pandas as pd
 import joblib
 from pathlib import Path
 from xgboost import XGBClassifier
