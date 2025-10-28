@@ -27,7 +27,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -r requirements.api.txt
-          pip install pytest ruff
+          pip install pytest ruff httpx pytest-cov
 
       - name: Lint with Ruff
         run: ruff check .
