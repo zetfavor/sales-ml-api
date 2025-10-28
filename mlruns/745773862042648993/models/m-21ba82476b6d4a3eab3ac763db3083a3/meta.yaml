@@ -1,0 +1,10 @@
+artifact_location: file:///D:/Projects/sales-ml/mlruns/745773862042648993/models/m-21ba82476b6d4a3eab3ac763db3083a3/artifacts
+creation_timestamp: 1761596722485
+experiment_id: '745773862042648993'
+last_updated_timestamp: 1761596745081
+model_id: m-21ba82476b6d4a3eab3ac763db3083a3
+model_type: null
+name: model
+source_run_id: dc28f2fa19264f7d97ef13a6029e0293
+status: 2
+status_message: null

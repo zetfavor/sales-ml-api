@@ -17,7 +17,6 @@ build/
 
 # Data and models (we don't version these)
 data/
-models/
 *.sqlite
 
 # Jupyter
