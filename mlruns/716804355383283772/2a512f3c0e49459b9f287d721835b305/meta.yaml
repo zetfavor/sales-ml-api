@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Projects/sales-ml/mlruns/716804355383283772/2a512f3c0e49459b9f287d721835b305/artifacts
+end_time: 1761642948525
+entry_point_name: ''
+experiment_id: '716804355383283772'
+lifecycle_stage: active
+run_id: 2a512f3c0e49459b9f287d721835b305
+run_name: awesome-eel-766
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761642947161
+status: 3
+tags: []
+user_id: Andrew

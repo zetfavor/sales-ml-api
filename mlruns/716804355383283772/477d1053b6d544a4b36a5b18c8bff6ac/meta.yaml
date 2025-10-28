@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Projects/sales-ml/mlruns/716804355383283772/477d1053b6d544a4b36a5b18c8bff6ac/artifacts
+end_time: 1761642931196
+entry_point_name: ''
+experiment_id: '716804355383283772'
+lifecycle_stage: active
+run_id: 477d1053b6d544a4b36a5b18c8bff6ac
+run_name: invincible-ox-513
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761642930334
+status: 3
+tags: []
+user_id: Andrew

@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Projects/sales-ml/mlruns/716804355383283772/c0b7613faa914fa3a8bab79c072a537a/artifacts
+end_time: 1761642940412
+entry_point_name: ''
+experiment_id: '716804355383283772'
+lifecycle_stage: active
+run_id: c0b7613faa914fa3a8bab79c072a537a
+run_name: rare-hare-149
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761642938003
+status: 3
+tags: []
+user_id: Andrew

@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Projects/sales-ml/mlruns/716804355383283772/ea2de266bfbe498b8e7117c8facd7a62/artifacts
+end_time: 1761642935282
+entry_point_name: ''
+experiment_id: '716804355383283772'
+lifecycle_stage: active
+run_id: ea2de266bfbe498b8e7117c8facd7a62
+run_name: calm-stoat-791
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761642933908
+status: 3
+tags: []
+user_id: Andrew

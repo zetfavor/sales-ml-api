@@ -1,0 +1,6 @@
+artifact_location: file:///D:/Projects/sales-ml/mlruns/716804355383283772
+creation_time: 1761642877963
+experiment_id: '716804355383283772'
+last_update_time: 1761642877963
+lifecycle_stage: active
+name: Sales Tuning (Optuna)

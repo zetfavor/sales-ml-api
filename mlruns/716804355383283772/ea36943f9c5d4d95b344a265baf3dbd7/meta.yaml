@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Projects/sales-ml/mlruns/716804355383283772/ea36943f9c5d4d95b344a265baf3dbd7/artifacts
+end_time: 1761642906371
+entry_point_name: ''
+experiment_id: '716804355383283772'
+lifecycle_stage: active
+run_id: ea36943f9c5d4d95b344a265baf3dbd7
+run_name: chill-whale-369
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761642904813
+status: 3
+tags: []
+user_id: Andrew

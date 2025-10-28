@@ -1,0 +1,30 @@
+# Git
+.git/
+.gitignore
+
+# PyCharm
+.idea/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environments (CRITICAL to ignore)
+.env/
+venv/
+*.venv
+
+# Data (we saved the *model*, not the raw data)
+data/
+
+# Experiments & Notebooks (not needed for the API)
+mlruns/
+notebooks/
+
+# Files
+README.md
+*.lock.txt
+requirements.txt
+create_sample_data.py
+run_tuning.py
+train_final_model.py

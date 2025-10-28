@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Projects/sales-ml/mlruns/716804355383283772/1bae0f49fe6145e794827d5eb968a883/artifacts
+end_time: 1761642898437
+entry_point_name: ''
+experiment_id: '716804355383283772'
+lifecycle_stage: active
+run_id: 1bae0f49fe6145e794827d5eb968a883
+run_name: sassy-goat-84
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761642897596
+status: 3
+tags: []
+user_id: Andrew

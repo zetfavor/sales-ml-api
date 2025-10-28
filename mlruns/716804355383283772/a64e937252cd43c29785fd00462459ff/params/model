@@ -1,0 +1,1 @@
+{'type': 'xgboost', 'params': {'n_estimators': 500, 'learning_rate': 0.20697797905557958, 'max_depth': 6, 'subsample': 0.701259830816148, 'colsample_bytree': 0.7300570104655703}}

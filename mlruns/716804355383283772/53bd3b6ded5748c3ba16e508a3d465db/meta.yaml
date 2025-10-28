@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Projects/sales-ml/mlruns/716804355383283772/53bd3b6ded5748c3ba16e508a3d465db/artifacts
+end_time: 1761642902206
+entry_point_name: ''
+experiment_id: '716804355383283772'
+lifecycle_stage: active
+run_id: 53bd3b6ded5748c3ba16e508a3d465db
+run_name: adventurous-worm-816
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761642901656
+status: 3
+tags: []
+user_id: Andrew

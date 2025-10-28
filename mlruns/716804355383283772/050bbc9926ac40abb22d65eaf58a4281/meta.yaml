@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Projects/sales-ml/mlruns/716804355383283772/050bbc9926ac40abb22d65eaf58a4281/artifacts
+end_time: 1761642888160
+entry_point_name: ''
+experiment_id: '716804355383283772'
+lifecycle_stage: active
+run_id: 050bbc9926ac40abb22d65eaf58a4281
+run_name: youthful-colt-458
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761642886849
+status: 3
+tags: []
+user_id: Andrew

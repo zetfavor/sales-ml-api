@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Projects/sales-ml/mlruns/716804355383283772/09930f107c0a41c08d15e2ad94d47ec5/artifacts
+end_time: 1761642904003
+entry_point_name: ''
+experiment_id: '716804355383283772'
+lifecycle_stage: active
+run_id: 09930f107c0a41c08d15e2ad94d47ec5
+run_name: classy-quail-326
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761642903165
+status: 3
+tags: []
+user_id: Andrew

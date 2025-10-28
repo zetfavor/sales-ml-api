@@ -1,0 +1,85 @@
+# Name of our assembly line
+name: CI/CD Pipeline
+
+# The "ON" switch: Run this blueprint on any 'push' to the 'main' branch
+on:
+  push:
+    branches:
+      - main
+
+# --- The Assembly Line Jobs ---
+jobs:
+
+  # --- Job 1: "Quality Inspection" (CI) ---
+  test-and-lint:
+    name: 1. Test and Lint
+    runs-on: ubuntu-latest # Use a clean Linux machine
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.api.txt
+          pip install pytest ruff
+
+      - name: Lint with Ruff
+        run: ruff check .
+
+      - name: Test with Pytest
+        run: pytest
+
+  # --- Job 2: "Build & Deploy" (CD) ---
+  build-and-deploy:
+    name: 2. Build and Deploy to Cloud Run
+
+    # IMPORTANT: This job *only* runs if the "test-and-lint" job succeeds
+    needs: test-and-lint
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+
+      # 1. Authenticate with Google Cloud (the "keys to the garage")
+      - name: Authenticate to Google Cloud
+        uses: 'google-github-actions/auth@v2'
+        with:
+          credentials_json: '${{ secrets.GCP_SA_KEY }}' # The "secret password"
+
+      # 2. Set up the GCloud SDK (the tool to talk to GCP)
+      - name: Set up Cloud SDK
+        uses: 'google-github-actions/setup-gcloud@v2'
+
+      # 3. Configure Docker to talk to Google's "Public Garage"
+      - name: Configure Docker
+        run: gcloud auth configure-docker us-central1-docker.pkg.dev
+
+      # 4. Build the "Food Truck" (Image)
+      # We tag it with the garage's address right away
+      - name: Build Docker Image
+        run: >
+          docker build -t 
+          us-central1-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/sales-api/sales-api-image:latest .
+
+      # 5. Push the "Food Truck" to the "Public Garage"
+      - name: Push Docker Image
+        run: >
+          docker push 
+          us-central1-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/sales-api/sales-api-image:latest
+
+      # 6. Tell the "Cloud Valet" (Cloud Run) to deploy the new truck
+      - name: Deploy to Cloud Run
+        run: >
+          gcloud run deploy sales-api-service
+          --image us-central1-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/sales-api/sales-api-image:latest
+          --region us-central1
+          --port 80
+          --allow-unauthenticated

@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Projects/sales-ml/mlruns/745773862042648993/4d60642db02148c59663b619726cd74f/artifacts
+end_time: 1761597634718
+entry_point_name: ''
+experiment_id: '745773862042648993'
+lifecycle_stage: active
+run_id: 4d60642db02148c59663b619726cd74f
+run_name: Third_XGB_NO_SMOTE_FIX
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761597622829
+status: 3
+tags: []
+user_id: Andrew

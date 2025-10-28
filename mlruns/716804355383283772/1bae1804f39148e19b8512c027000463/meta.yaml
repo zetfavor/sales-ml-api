@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Projects/sales-ml/mlruns/716804355383283772/1bae1804f39148e19b8512c027000463/artifacts
+end_time: 1761642922141
+entry_point_name: ''
+experiment_id: '716804355383283772'
+lifecycle_stage: active
+run_id: 1bae1804f39148e19b8512c027000463
+run_name: bold-ram-22
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761642921573
+status: 3
+tags: []
+user_id: Andrew

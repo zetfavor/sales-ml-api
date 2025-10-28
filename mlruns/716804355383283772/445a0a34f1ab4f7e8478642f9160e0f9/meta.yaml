@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Projects/sales-ml/mlruns/716804355383283772/445a0a34f1ab4f7e8478642f9160e0f9/artifacts
+end_time: 1761642901608
+entry_point_name: ''
+experiment_id: '716804355383283772'
+lifecycle_stage: active
+run_id: 445a0a34f1ab4f7e8478642f9160e0f9
+run_name: carefree-toad-511
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761642900725
+status: 3
+tags: []
+user_id: Andrew

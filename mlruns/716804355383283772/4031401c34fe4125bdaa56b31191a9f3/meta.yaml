@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Projects/sales-ml/mlruns/716804355383283772/4031401c34fe4125bdaa56b31191a9f3/artifacts
+end_time: 1761642900680
+entry_point_name: ''
+experiment_id: '716804355383283772'
+lifecycle_stage: active
+run_id: 4031401c34fe4125bdaa56b31191a9f3
+run_name: luminous-elk-288
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761642899155
+status: 3
+tags: []
+user_id: Andrew

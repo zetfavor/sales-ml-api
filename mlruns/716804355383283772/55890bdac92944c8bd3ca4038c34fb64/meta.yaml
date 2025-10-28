@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Projects/sales-ml/mlruns/716804355383283772/55890bdac92944c8bd3ca4038c34fb64/artifacts
+end_time: 1761642904712
+entry_point_name: ''
+experiment_id: '716804355383283772'
+lifecycle_stage: active
+run_id: 55890bdac92944c8bd3ca4038c34fb64
+run_name: adaptable-wren-57
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761642904041
+status: 3
+tags: []
+user_id: Andrew

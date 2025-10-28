@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Projects/sales-ml/mlruns/716804355383283772/8efb4168d6f74528a3973e8152444b04/artifacts
+end_time: 1761642930286
+entry_point_name: ''
+experiment_id: '716804355383283772'
+lifecycle_stage: active
+run_id: 8efb4168d6f74528a3973e8152444b04
+run_name: burly-stork-260
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761642927536
+status: 3
+tags: []
+user_id: Andrew

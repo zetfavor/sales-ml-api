@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Projects/sales-ml/mlruns/716804355383283772/734def169d274b239a07fc41fbbed26a/artifacts
+end_time: 1761642899117
+entry_point_name: ''
+experiment_id: '716804355383283772'
+lifecycle_stage: active
+run_id: 734def169d274b239a07fc41fbbed26a
+run_name: hilarious-hen-683
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761642898472
+status: 3
+tags: []
+user_id: Andrew

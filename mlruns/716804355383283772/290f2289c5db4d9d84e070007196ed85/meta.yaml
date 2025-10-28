@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Projects/sales-ml/mlruns/716804355383283772/290f2289c5db4d9d84e070007196ed85/artifacts
+end_time: 1761642897547
+entry_point_name: ''
+experiment_id: '716804355383283772'
+lifecycle_stage: active
+run_id: 290f2289c5db4d9d84e070007196ed85
+run_name: marvelous-smelt-802
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761642896885
+status: 3
+tags: []
+user_id: Andrew

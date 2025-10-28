@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Projects/sales-ml/mlruns/745773862042648993/dc28f2fa19264f7d97ef13a6029e0293/artifacts
+end_time: 1761596745113
+entry_point_name: ''
+experiment_id: '745773862042648993'
+lifecycle_stage: active
+run_id: dc28f2fa19264f7d97ef13a6029e0293
+run_name: Second_XGB_NO_SMOTE
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761596721510
+status: 3
+tags: []
+user_id: Andrew

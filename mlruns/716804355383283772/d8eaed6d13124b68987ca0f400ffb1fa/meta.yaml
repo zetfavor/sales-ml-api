@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Projects/sales-ml/mlruns/716804355383283772/d8eaed6d13124b68987ca0f400ffb1fa/artifacts
+end_time: 1761642937958
+entry_point_name: ''
+experiment_id: '716804355383283772'
+lifecycle_stage: active
+run_id: d8eaed6d13124b68987ca0f400ffb1fa
+run_name: caring-colt-996
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761642936702
+status: 3
+tags: []
+user_id: Andrew

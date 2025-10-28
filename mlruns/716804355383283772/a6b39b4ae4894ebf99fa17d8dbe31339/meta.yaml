@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Projects/sales-ml/mlruns/716804355383283772/a6b39b4ae4894ebf99fa17d8dbe31339/artifacts
+end_time: 1761642896845
+entry_point_name: ''
+experiment_id: '716804355383283772'
+lifecycle_stage: active
+run_id: a6b39b4ae4894ebf99fa17d8dbe31339
+run_name: chill-fish-551
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761642896232
+status: 3
+tags: []
+user_id: Andrew

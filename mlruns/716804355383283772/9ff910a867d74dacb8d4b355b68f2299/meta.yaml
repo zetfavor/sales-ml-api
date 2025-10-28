@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Projects/sales-ml/mlruns/716804355383283772/9ff910a867d74dacb8d4b355b68f2299/artifacts
+end_time: 1761642883460
+entry_point_name: ''
+experiment_id: '716804355383283772'
+lifecycle_stage: active
+run_id: 9ff910a867d74dacb8d4b355b68f2299
+run_name: upset-squirrel-951
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761642882097
+status: 3
+tags: []
+user_id: Andrew

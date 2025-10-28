@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Projects/sales-ml/mlruns/716804355383283772/aec95837632f4327af0c314ae0477ed6/artifacts
+end_time: 1761642945618
+entry_point_name: ''
+experiment_id: '716804355383283772'
+lifecycle_stage: active
+run_id: aec95837632f4327af0c314ae0477ed6
+run_name: agreeable-shark-142
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761642944201
+status: 3
+tags: []
+user_id: Andrew

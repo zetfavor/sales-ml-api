@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Projects/sales-ml/mlruns/716804355383283772/c72bfd34250448e8b13e002a37077a64/artifacts
+end_time: 1761642918129
+entry_point_name: ''
+experiment_id: '716804355383283772'
+lifecycle_stage: active
+run_id: c72bfd34250448e8b13e002a37077a64
+run_name: kindly-rat-705
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761642916992
+status: 3
+tags: []
+user_id: Andrew

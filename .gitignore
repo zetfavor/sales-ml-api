@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.env/
+venv/
+*.egg-info
+dist/
+build/
+
+# PyCharm / VSCode
+.idea/
+.vscode/
+
+# Data and models (we don't version these)
+data/
+models/
+*.sqlite
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini

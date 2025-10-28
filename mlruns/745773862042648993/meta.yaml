@@ -1,0 +1,6 @@
+artifact_location: file:///D:/Projects/sales-ml/mlruns/745773862042648993
+creation_time: 1761594540088
+experiment_id: '745773862042648993'
+last_update_time: 1761594540088
+lifecycle_stage: active
+name: Sales Prediction (SMOTE)
